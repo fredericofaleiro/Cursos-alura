@@ -38,7 +38,6 @@
   background: url(../imgs/Osaka-tablet.jpg);
   width: 648px;
   height: 452px;
-  margin-top: 0px;
 }
 
   .populary-options p {
@@ -70,6 +69,7 @@
   background: url(../imgs/Osaka-desktop.jpg);
   width: 588px;
   height: 452px;
+  margin-top: 0px;
 }
 
     .populary-cards {
