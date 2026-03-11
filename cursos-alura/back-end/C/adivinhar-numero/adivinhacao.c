@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <locale.h>
 
 int main() {
+    setlocale(LC_ALL, "pt_BR.UTF-8");
 
     // imprimindo cabecalho bonito do jogo
     printf("\n\n");
@@ -53,7 +55,7 @@ int main() {
 
         printf("-> Tentativa %d de %d\n", i, totaldetentativas);
 
-        printf("Chute um número: ");
+        printf("Chute um número entre 1 e 100: ");
         scanf("%d", &chute);
 
         // tratando chute de numero negativo
